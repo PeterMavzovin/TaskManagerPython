@@ -16,6 +16,7 @@
 *   **Docker:** Контейнеризация приложения с использованием Docker для простого развертывания.
 
 ## Структура проекта
+ ```
 TaskManagerPython/
 ├── app/
 │ ├── init.py
@@ -29,6 +30,7 @@ TaskManagerPython/
 ├── docker-compose.yml # Конфигурация Docker Compose для запуска сервисов
 ├── requirements.txt # Зависимости Python
 └── README.md # Этот файл
+ ```
 
 
 ## Установка и запуск
