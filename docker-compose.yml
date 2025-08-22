@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app/app # Это позволит вам вносить изменения в код app/ и видеть их без пересборки образа (для разработки)
+    environment:
+      PYTHONUNBUFFERED: 1 # Убедитесь, что логи Python сразу выводятся в консоль Docker
